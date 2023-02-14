@@ -8,3 +8,11 @@ body {
 h1{
     color: blueviolet;
 }
+
+*{
+    color:brown;
+}
+
+.skills{
+    align: center;
+}
