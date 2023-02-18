@@ -1,7 +1,10 @@
-<!DOCTYPE HTML> 
-<html lang="en"> 
+<!DOCTYPE HTML>
+<html lang="en">
+
 <head>
-    <html lang="en"> </html>
+    <html lang="en">
+
+    </html>
     <meta charset="UTF-8">
     <title> BMN Hobbies</title>
     <meta author="Brian Nguyen A13723777">
@@ -13,72 +16,73 @@
 <body>
     <h1> Weezer Moments</h1>
 
-    <audio
-    controls>
-    <source src="assets/WAS.mp3">
+    <audio controls>
+        <source src="assets/WAS.mp3">
         <a href="WAS.mp3"></a>
-</audio>
+    </audio>
 
-<video controls>
-    <source src="assets/video0_1.mp4" type="video/mp4" >
-</video>
+    <video controls>
+        <source src="assets/video0_1.mp4" type="video/mp4">
+    </video>
 
-<br><br>
-<style>
-    table { 
-        color:blue ;
-        border-color: black;
-    }
+    <br><br>
+    <style>
+        table {
+            color: blue;
+            border-color: black;
+        }
+    </style>
 
-</style>
+    <table>
+        <caption>Availible Pie Flavors</caption>
+        <colgroup>
+            <col>
+            <col span="1" class="pie-count">
+        </colgroup>
+        <thread>
+            <tr>
+                <th scope="col" colspan="1">Pie Flavors</th>
+                <th scope="col" colspan="1">1</th>
+                <th scope="col" colspan="1">2</th>
+                <th scope="col" colspan="1">3</th>
+                <th scope="col" colspan="1">4</th>
+                <th scope="col" colspan="1">5</th>
+            </tr>
+        </thread>
+        <tbody>
+            <tr>
+                <td> </td>
+                <td>Pumpkin</td>
+                <td>Apple</td>
+                <td>Blueberry</td>
+                <td>Wine</td>
+                <td>Sopor Slime</td>
+            </tr>
+        </tbody>
+    </table>
 
-<table border=1px>
-    <caption>Availible Pie Flavors</caption>
-    <colgroup>
-        <col>
-        <col span="1" class="pie-count">
-    </colgroup>
-    <thread>
+    <label for="pie-choice">Choose or enter a pie flavor:</label>
+    <input list="pie-flavors" id="pie-choice" name="pie-choice">
+
+    <datalist id="pie-flavors">
+        <option value="Pumpkin">
+        <option value="Apple">
+        <option value="Blueberry">
+        <option value="Wine">
+        <option value="Sopor Slime">
+    </datalist>
+    <br>
+    <details>
+        <summary>Pie Disclosure</summary>Sopor Slime isnt real
+    </details>
+
+    <br><br>
+
+
+    <template id="susGuy">
         <tr>
-            <th scope="col" colspan="1">Pie Flavors</th>
-            <th scope="col" colspan="1">1</th>
-            <th scope="col" colspan="1">2</th>
-            <th scope="col" colspan="1">3</th>
-            <th scope="col" colspan="1">4</th>
-            <th scope="col" colspan="1">5</th>
+            <img src="sus.jpg">
         </tr>
-    </thread>
-    <tbody>
-        <tr>
-            <td> </td>
-            <td>Pumpkin</td>
-            <td>Apple</td>
-            <td>Blueberry</td>
-            <td>Wine</td>
-            <td>Sopor Slime</td>
-        </tr>
-    </tbody>
-</table>
+    </template>
 
-<label for="pie-choice">Choose or enter a pie flavor:</label>
-<input list="pie-flavors" id="pie-choice" name="pie-choice">
-
-<datalist id="pie-flavors">
-    <option value="Pumpkin">
-    <option value="Apple">
-    <option value="Blueberry">
-    <option value="Wine">
-    <option value="Sopor Slime">
-</datalist>
-<br><details><summary>Pie Disclosure</summary>Sopor Slime isnt real </details>
-
-<br><br>
-
-
-<template id="susGuy">
-    <tr>
-      <img src="sus.jpg">
-    </tr>
-  </template>
-
-</body> 
+</body>

@@ -1,54 +1,56 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <!-- <html> -->
-<html lang="en"> 
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title> BMN Home Page</title>
     <!--<meta author="Brian Nguyen A13723777">-->
     <link rel="icon" type="image/x-icon" href="assets/favico.png" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/masterStyle.css" media="screen">
+    <link rel="stylesheet" type="text/css" 
+        href="stylesheets/masterStyle.css" media="screen">
 
 </head>
+
 <body>
     <header> Welcome </header>
-    <nav>
-            <a href="experimental.html"> Experiemental</a>&emsp;
-            <a href="skills.html"> Skills</a> &emsp;
-            <a href="hobbies.html"> Hobbies</a>
-    </nav>
-    <main><h1> Brian Nguyen's Website</h1></main>
-    <section>
-            <h2> Bio </h2>
-            <p>
-                <b>Dorem ipsum dolor sit amet</b>, consectetur<strong> adipiscing</strong> elit. <br> 
-            </p>
-            <hr> 
-            <pre>
-                Quis que et scelerisque metus, nec tempus quam. <br> 
-                Cras posuere vulputate metus porttitor dignissim. 
-            </pre>
-            <p>
-                <i>Phasellus ultricies non arcu eu viverra. </i><br> 
-                <em>Ut maximus metus</em> in mi ornare efficitur. <br> 
-                Nam quis ornare massa. <br>Ut malesuada aliquet orci, sed gravida sapien scelerisque ut. 
-            </p>
-            <aside>
-            My favorite C function to talk about is<code>printf()</code>
-            </aside>
-        <div>
-            <h3>Brian</h3>
-            <figure>
-                <img src="/SigLogo.ico"
-                     alt="The letters B and N styleized">
-                <figcaption>Brian's Logo</figcaption>
+    <span>
+
+
+        <div id="imgGrid">
+
+            <nav id="subHLeft">
+                <a href="experiemental.html"> Experiemental</a>&emsp;
+                <a href="skills.html"> Skills</a> &emsp;
+                <a href="hobbies.html"> Hobbies</a>
+            </nav>
+
+            <figure id="subHRight">
+                <img src="assets/SigLogo.ico" 
+                    alt="The letters B and N styleized">
+                <figcaption hidden >Brian's Logo</figcaption>
             </figure>
         </div>
+    </span>
 
-        <img width="35" height="35" alt="Picture of Brian" src="headshot.png">
+    <main>
+        <h1> Brian Nguyen's Website</h1>
+    </main>
+    <section>
+
+        <div id="as">
+            <h3>Br-io</h3>
+
+        </div>
+        <button disabled onclick="showScript.js" class="imgShow" type="button">Click to see Brian</button>
+        <img id="CTShow" width="35" height="35" alt="Picture of Brian" src="assets/notsus.jpg">
 
 
     </section>
-    <footer> Brian Nguyen &copy; </footer>
+    <footer>
+        <a href="mailto:brian.nguyen.drive@gmail.com"> Send me an email </a>
+        Brian Nguyen &copy;
+    </footer>
 </body>
 
 </html>
